@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: 483216680875.dkr.ecr.us-east-1.amazonaws.com/demo:53
+        #image: 483216680875.dkr.ecr.us-east-1.amazonaws.com/demo:53
+        image: public.ecr.aws/q9t7d0r5/mvn-k8s-jenkins-repo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
